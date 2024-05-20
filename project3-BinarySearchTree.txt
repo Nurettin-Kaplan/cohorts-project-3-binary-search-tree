@@ -1,0 +1,42 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Verilen dizinin Binary Search Tree'e dönüştürülme aşamalarını sırasıyla yazalım:
+
+        root = 7
+
+        5, root'tan küçük olduğu için sola yerleştirilir
+            Sol alt ağaç: 5
+		
+		7
+              5
+
+        1, root'tan küçük olduğu için 5'in soluna yerleştirilir
+           
+		7
+              5
+            1
+
+        8, root'tan büyük olduğu için sağa yerleştirilir
+
+		7
+              5   8
+            1        
+
+        3, root'tan küçük olduğu için 5'in soluna
+   
+		  7
+              5       8
+            1   3
+
+        6, root'tan büyük olduğu için 5'in sağına
+ 	
+		    7
+               5  6    8
+             1  3
+
+        0, root'tan küçük olduğu için 1'in soluna
+
+		    7
+               5  6    8
+             1  3   
+           0
